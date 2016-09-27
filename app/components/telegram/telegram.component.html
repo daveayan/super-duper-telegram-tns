@@ -1,0 +1,10 @@
+<StackLayout>
+    <TextField [(ngModel)]="fromNumber" hint="From Phone Number" keyboardType="phone" autocorrect="false" autocapitalizationType="none"></TextField>>
+
+    <TextField [(ngModel)]="toNumber" hint="To Phone Number" keyboardType="phone" autocorrect="false" autocapitalizationType="none"></TextField>>
+
+    <TextField [(ngModel)]="messageEntered" hint="Message" keyboardType="text" autocorrect="true" autocapitalizationType="none"></TextField>>
+
+    <Button text="Save Settings" autocapitalizationType="none" (tap)="submit()"></Button>
+
+</StackLayout>
